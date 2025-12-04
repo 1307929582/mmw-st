@@ -98,37 +98,37 @@
     - PNG/JSON 导出
     - _Requirements: 5.3, 5.4, 5.5, 5.6_
 
-- [ ] 8. Checkpoint - 确保所有测试通过
+- [x] 8. Checkpoint - 确保所有测试通过
   - Ensure all tests pass, ask the user if questions arise.
 
 ## Phase 4: Core SDK - 对话管理
 
-- [ ] 9. 实现对话管理器
-  - [ ] 9.1 实现对话 CRUD 操作
+- [x] 9. 实现对话管理器
+  - [x] 9.1 实现对话 CRUD 操作
     - 创建、获取、删除对话
     - _Requirements: 6.4_
-  - [ ] 9.2 实现消息管理
+  - [x] 9.2 实现消息管理
     - 添加、编辑、删除消息
     - _Requirements: 6.4, 6.7, 6.8_
-  - [ ] 9.3 编写属性测试：消息操作
+  - [x] 9.3 编写属性测试：消息操作
     - **Property 11: Message Edit Persistence**
     - **Property 12: Message Deletion Removes Message**
     - **Validates: Requirements 6.7, 6.8**
-  - [ ] 9.4 实现滑动/重新生成功能
+  - [x] 9.4 实现滑动/重新生成功能
     - 添加滑动替代回复
     - 切换滑动索引
     - _Requirements: 6.5, 6.6_
-  - [ ] 9.5 编写属性测试：滑动导航
+  - [x] 9.5 编写属性测试：滑动导航
     - **Property 13: Swipe Navigation Bounds**
     - **Validates: Requirements 6.5**
-  - [ ] 9.6 实现对话分支
+  - [x] 9.6 实现对话分支
     - 从指定消息分支
     - _Requirements: 6.12_
-  - [ ] 9.7 编写属性测试：对话分支
+  - [x] 9.7 编写属性测试：对话分支
     - **Property 14: Chat Fork Preserves History**
     - **Validates: Requirements 6.12**
 
-- [ ] 10. Checkpoint - 确保所有测试通过
+- [x] 10. Checkpoint - 确保所有测试通过
   - Ensure all tests pass, ask the user if questions arise.
 
 ## Phase 5: Core SDK - 提示词构建
