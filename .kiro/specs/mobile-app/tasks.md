@@ -133,34 +133,34 @@
 
 ## Phase 5: Core SDK - 提示词构建
 
-- [ ] 11. 实现提示词构建器
-  - [ ] 11.1 实现基础提示词构建
+- [x] 11. 实现提示词构建器
+  - [x] 11.1 实现基础提示词构建
     - 组合角色信息、对话历史
     - _Requirements: 6.1_
-  - [ ] 11.2 编写属性测试：提示词构建
+  - [x] 11.2 编写属性测试：提示词构建
     - **Property 10: Prompt Construction Completeness**
     - **Validates: Requirements 6.1**
-  - [ ] 11.3 实现 Instruct 模式
+  - [x] 11.3 实现 Instruct 模式
     - 模板解析和应用
     - _Requirements: 10.3_
-  - [ ] 11.4 实现 Author's Note 注入
+  - [x] 11.4 实现 Author's Note 注入
     - 可配置插入位置和深度
     - _Requirements: 10.1_
 
-- [ ] 12. 实现分词器
-  - [ ] 12.1 集成 tiktoken (OpenAI)
+- [x] 12. 实现分词器
+  - [x] 12.1 集成 tiktoken (OpenAI)
     - 使用 js-tiktoken 或 tiktoken-node
     - _Requirements: 12.1_
-  - [ ] 12.2 实现上下文截断
+  - [x] 12.2 实现上下文截断
     - 按 token 限制截断
     - 保留最近消息
     - _Requirements: 12.3, 12.4_
-  - [ ] 12.3 编写属性测试：上下文截断
+  - [x] 12.3 编写属性测试：上下文截断
     - **Property 17: Context Truncation Respects Limit**
     - **Property 18: Context Truncation Preserves Recent**
     - **Validates: Requirements 12.4**
 
-- [ ] 13. Checkpoint - 确保所有测试通过
+- [x] 13. Checkpoint - 确保所有测试通过
   - Ensure all tests pass, ask the user if questions arise.
 
 ## Phase 6: Core SDK - World Info
