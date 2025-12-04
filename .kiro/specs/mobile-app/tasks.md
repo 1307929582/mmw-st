@@ -58,42 +58,42 @@
     - 导出文件管理
     - _Requirements: 5.8, 22.1_
 
-- [ ] 5. Checkpoint - 确保所有测试通过
+- [x] 5. Checkpoint - 确保所有测试通过
   - Ensure all tests pass, ask the user if questions arise.
 
 ## Phase 3: Core SDK - 角色管理
 
-- [ ] 6. 实现角色卡片解析器
-  - [ ] 6.1 实现 V1/V2 角色卡片解析
+- [x] 6. 实现角色卡片解析器
+  - [x] 6.1 实现 V1/V2 角色卡片解析
     - JSON 格式解析
     - 字段验证和默认值
     - _Requirements: 5.4, 5.7_
-  - [ ] 6.2 编写属性测试：角色卡片解析
+  - [x] 6.2 编写属性测试：角色卡片解析
     - **Property 6: Character Card JSON Round-Trip**
     - **Property 7: Character Card V1/V2 Compatibility**
     - **Validates: Requirements 5.4, 5.6, 5.7**
-  - [ ] 6.3 实现 PNG 元数据嵌入/提取
+  - [x] 6.3 实现 PNG 元数据嵌入/提取
     - 使用 png-chunk-text 处理 PNG 元数据
     - _Requirements: 5.3, 5.5_
-  - [ ] 6.4 编写属性测试：PNG 角色卡片
+  - [x] 6.4 编写属性测试：PNG 角色卡片
     - **Property 5: Character Card PNG Round-Trip**
     - **Validates: Requirements 5.3, 5.5**
 
-- [ ] 7. 实现角色管理器
-  - [ ] 7.1 实现角色 CRUD 操作
+- [x] 7. 实现角色管理器
+  - [x] 7.1 实现角色 CRUD 操作
     - 创建、读取、更新、删除角色
     - _Requirements: 5.1, 5.2, 5.9_
-  - [ ] 7.2 编写属性测试：角色删除
+  - [x] 7.2 编写属性测试：角色删除
     - **Property 8: Character Deletion Removes Data**
     - **Validates: Requirements 5.9**
-  - [ ] 7.3 实现角色标签和过滤
+  - [x] 7.3 实现角色标签和过滤
     - 标签管理
     - 按标签/收藏过滤
     - _Requirements: 5.10, 5.11_
-  - [ ] 7.4 编写属性测试：标签过滤
+  - [x] 7.4 编写属性测试：标签过滤
     - **Property 9: Character Tag Filtering**
     - **Validates: Requirements 5.10**
-  - [ ] 7.5 实现角色导入导出
+  - [x] 7.5 实现角色导入导出
     - PNG/JSON 导入
     - PNG/JSON 导出
     - _Requirements: 5.3, 5.4, 5.5, 5.6_
