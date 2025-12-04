@@ -165,24 +165,24 @@
 
 ## Phase 6: Core SDK - World Info
 
-- [ ] 14. 实现 World Info 引擎
-  - [ ] 14.1 实现关键词匹配器
+- [x] 14. 实现 World Info 引擎
+  - [x] 14.1 实现关键词匹配器
     - 普通关键词匹配
     - 正则表达式匹配
     - _Requirements: 8.3, 8.4_
-  - [ ] 14.2 编写属性测试：关键词匹配
+  - [x] 14.2 编写属性测试：关键词匹配
     - **Property 15: World Info Keyword Matching**
     - **Property 16: World Info Regex Matching**
     - **Validates: Requirements 8.3, 8.4**
-  - [ ] 14.3 实现内容注入器
+  - [x] 14.3 实现内容注入器
     - 按优先级和位置注入
     - _Requirements: 8.5_
-  - [ ] 14.4 实现 World Info 管理
+  - [x] 14.4 实现 World Info 管理
     - CRUD 操作
     - 导入导出
     - _Requirements: 8.1, 8.2_
 
-- [ ] 15. Checkpoint - 确保所有测试通过
+- [x] 15. Checkpoint - 确保所有测试通过
   - Ensure all tests pass, ask the user if questions arise.
 
 ## Phase 7: Core SDK - API 客户端
